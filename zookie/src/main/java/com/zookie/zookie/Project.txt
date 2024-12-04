@@ -1,0 +1,16 @@
+Create Zookie app. Zookie is a book management app. 
+Each book consists of a bookid, title, genre, authors, and publish date.
+
+The app should have an Entity, DTO, Service, Repository, and Controller layer. 
+The Service and Repository layers should be an interface and a main Service layer. 
+
+Also, change the console banner and server id on the app. Connect the app to the 
+h2 database and later mysql database. 
+
+Perform the following operations on the app:
+. Create a list of 10 books (Http response should be 201 created not 200 ok).
+. Find all book.
+. Find books by book id, Genre and author.
+. Update some book details( author/ genre)
+. Delete 2 books. 
+. Add a validator to validate inputs. 
